@@ -4,7 +4,7 @@
 
  一个基于python的九宫格抽奖程序。
 
-![](C:\Users\Jason\AppData\Roaming\marktext\images\fe3df5c1e3152511d7c82796eef076fde2d7a283.png)![alt 属性文本](C:\Users\Jason\AppData\Roaming\marktext\images\3c7a5d4212b6bfb6bea6c11ea17b02fade7ba05f.png)![alt 属性文本](C:\Users\Jason\AppData\Roaming\marktext\images\8f419867c01e01f1b2b9e98da36754196b8fc7e1.png)
+![](screenshot.png)![alt 属性文本](scr.png)![alt 属性文本](sc1r.png)
 
 单击中间的“抽奖”按钮可以直接开始抽奖；
 
