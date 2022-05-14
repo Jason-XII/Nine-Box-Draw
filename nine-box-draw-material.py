@@ -98,10 +98,13 @@ class AboutDialog(QDialog):
         self.vbox = QVBoxLayout(self)
         self.label = QLabel("这是关于作者、本程序，以及本程序的使用条款")
         self.text_edit = QTextEdit(self)
-        self.text_edit.setText("本程序的作者是河北省保定市的一名中学生，"
-                               "欢迎通过jasoncoder@qq.com与作者联系，或进行关于编程问题的交流探讨。\n"
-                               "这个程序受版权保护，不得随意进行修改。未经作者同意，不得商用。\n"
-                               "这个程序完全免费。")
+        self.text_edit.setHtml("<p style=\"color: black;\">本程序的作者是河北省保定市的一名中学生，"
+                               "欢迎通过jasoncoder@qq.com与作者联系，或进行关于编程问题的交流探讨。<br>"
+                               "这个程序受版权保护，不得随意进行修改。未经作者同意，不得商用。<br>"
+                               "这个程序是完全免费且开源的，可以"
+                               "在<a href=\"https://github.com/Jason-XII/Nine-Box-Draw\">"
+                               "https://github.com/Jason-XII/Nine-Box-Draw</a>上查看"
+                               "此项目的源代码，以及更为详细的使用说明。</p>")
         self.text_edit.setReadOnly(True)
         self.submit = QPushButton("我已阅读")
         self.vbox.addWidget(self.label)
